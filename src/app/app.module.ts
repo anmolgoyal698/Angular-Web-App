@@ -26,7 +26,7 @@ import { DropdownDirective } from './shared/dropdown.directive';
     ShoppingEditComponent,
     DropdownDirective,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule],
+  imports: [BrowserModule, FormsModule, AppRoutingModule],
   providers: [ShoppingListService],
   bootstrap: [AppComponent],
 })
